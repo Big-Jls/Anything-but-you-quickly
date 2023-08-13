@@ -1,0 +1,14 @@
+{
+    "parent": "abyq:recipes/tools/frozen_clock",
+    "rewards": {
+      "function": "abyq:recipes/diamond_fc"
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "abyq:diamond_fc"
+        }
+      }
+    }
+  }

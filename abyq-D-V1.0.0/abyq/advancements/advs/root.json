@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:clock"
+      },
+      "title": [
+        {
+          "text": "时间",
+          "obfuscated": true
+        },
+        {
+          "text": "时间乱流",
+          "obfuscated": false
+        },
+        {
+          "text": "时间",
+          "obfuscated": true
+        }
+      ],
+      "description": "你已经陷入了时间混乱的世界",
+      "background": "minecraft:textures/block/blue_ice.png",
+      "show_toast": false,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:written_book"
+              ],
+              "nbt": "{id:\"abyq:introduction_book\"}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

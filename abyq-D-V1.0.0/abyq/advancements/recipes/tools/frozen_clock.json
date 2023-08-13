@@ -1,0 +1,16 @@
+{
+    "rewards": {
+      "recipes": [
+        "abyq:frozen_clock"
+      ],
+      "function": "abyq:recipes/frozen_clock"
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "abyq:frozen_clock"
+        }
+      }
+    }
+  }

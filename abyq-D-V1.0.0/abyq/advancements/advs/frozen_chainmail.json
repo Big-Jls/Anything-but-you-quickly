@@ -1,0 +1,57 @@
+{
+  "parent": "abyq:advs/frozen_crystal",
+  "criteria": {
+    "chainmail_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chainmail_helmet"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:chainmail_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:chainmail_leggings"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:chainmail_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [{
+      "text": "看我一闪一闪亮晶晶~~"
+    }],
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chainmail_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": [{
+      "text": "blingbling"
+    }]
+  },
+  "requirements": [
+    [
+      "chainmail_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

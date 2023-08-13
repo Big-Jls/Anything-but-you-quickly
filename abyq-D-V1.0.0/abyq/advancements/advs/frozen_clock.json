@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:10000}"
+      },
+      "title": [
+        {
+          "text": "冻结时间"
+        }
+      ],
+      "description": "太短了！太短了！！！！",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{id:\"abyq:frozen_clock\"}"
+            }
+          ]
+        }
+      }
+    },
+    "parent": "abyq:advs/root"
+  }
+  

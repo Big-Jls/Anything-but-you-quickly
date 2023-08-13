@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:warped_fungus_on_a_stick",
+        "nbt": "{CustomModelData:10002}"
+      },
+      "title": [
+        {
+          "text": "冻结生命"
+        }
+      ],
+      "description": "The World!!!!!!!!我不做人啦！",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:warped_fungus_on_a_stick"
+              ],
+              "nbt": "{id:\"abyq:netherite_fc\"}"
+            }
+          ]
+        }
+      }
+    },
+    "parent": "abyq:advs/diamond_fc"
+  }
+  

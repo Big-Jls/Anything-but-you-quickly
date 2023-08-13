@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IQI",
+      "QAQ",
+      "IQI"
+    ],
+    "key": {
+      "Q": {
+        "item": "minecraft:blue_ice"
+      },
+      "A": {
+        "item": "minecraft:golden_apple"
+      },
+      "I": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
+  

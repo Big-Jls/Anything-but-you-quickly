@@ -1,0 +1,16 @@
+{
+    "rewards": {
+      "recipes": [
+        "abyq:milk_bottle"
+      ],
+      "function": "abyq:recipes/milk_bottle"
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "abyq:milk_bottle"
+        }
+      }
+    }
+  }
