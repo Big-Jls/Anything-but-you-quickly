@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "###",
+      "SES",
+      "WWW"
+  ],
+  "key": {
+      "#": {
+          "tag": "abyq:milk"
+      },
+      "S": {
+          "item": "minecraft:sugar"
+      },
+      "E": {
+          "tag": "abyq:egg"
+      },
+      "W": {
+          "item": "minecraft:wheat"
+      }
+  },
+  "result": {
+      "item": "minecraft:cake",
+      "count": 1
+  }
+}
