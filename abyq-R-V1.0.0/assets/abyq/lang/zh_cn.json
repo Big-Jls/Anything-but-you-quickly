@@ -1,0 +1,20 @@
+{
+    "item.abyq.frozen_apple":"§b霜冻苹果",
+    "item.abyq.frozen_clock":"§e冻结时间",
+    "item.abyq.diamond_fc":"§9深度冻结时间",
+    "item.abyq.netherite_fc":"§1冻结生命",
+    "item.abyq.milk_bottle":"§f奶瓶",
+    "item.abyq.ice_crystal":"§f冰晶",
+    "item.abyq.frozen_sword":"§f冰剑",
+    "item.abyq.frozen_resistance":"§f冻结抵抗药水",
+    "item.abyq.diamond_frozen_clock":"时间停止",
+    "item.abyq.netherite_frozen_clock":"生命归于平静吧",
+    "item.abyq.book":"翻书",
+    "menu.options":"§a§l选项",
+    "options.resourcepack": "§a§l资源包...(§4请使用配套资源包!§a)",
+    "options.guiScale": "§a§l界面尺寸(§4请调至4§a)",
+    "options.video":"§a§l视频设置",
+    "options.language": "§a§l语言",
+    "options.forceUnicodeFont": "§a强制使用Unicode字体(§4请关闭!§a)",
+    "The resourcepack does not Installl correctly or Launch":"resourcepack已成功加载,版本1.0.0,材质:SummerH8"
+}

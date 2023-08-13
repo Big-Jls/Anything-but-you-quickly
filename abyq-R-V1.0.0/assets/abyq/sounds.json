@@ -1,0 +1,14 @@
+{
+    "item.abyq.diamond_frozen_clock": {
+		"subtitle": "item.abyq.diamond_frozen_clock",
+		"sounds": ["abyq:diamond_frozen_clock"]
+    },
+    "item.abyq.netherite_frozen_clock":{
+      "subtitle": "item.abyq.netherite_frozen_clock",
+      "sounds": ["abyq:netherite_frozen_clock"]
+    },
+    "item.abyq.book":{
+      "subtitle": "item.abyq.book",
+      "sounds": ["abyq:book"]
+    }
+}
