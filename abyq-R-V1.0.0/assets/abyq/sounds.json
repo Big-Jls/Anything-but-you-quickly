@@ -10,5 +10,9 @@
     "item.abyq.book":{
       "subtitle": "item.abyq.book",
       "sounds": ["abyq:book"]
+    },
+    "entity.abyq.pigeon":{
+      "subtitle": "entity.abyq.pigeon",
+      "sounds": ["abyq:pigeon"]
     }
 }
