@@ -4,6 +4,7 @@
     "item": "minecraft:porkchop"
   },
   "result": "minecraft:cooked_porkchop",
+  "category": "food",
   "experience": 0.35,
-  "cookingtime": 200
+  "cookingtime": 100
 }

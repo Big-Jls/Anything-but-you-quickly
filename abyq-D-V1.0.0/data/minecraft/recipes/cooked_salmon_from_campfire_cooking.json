@@ -4,6 +4,7 @@
     "item": "minecraft:salmon"
   },
   "result": "minecraft:cooked_salmon",
+  "category": "food",
   "experience": 0.35,
-  "cookingtime": 200
+  "cookingtime": 100
 }

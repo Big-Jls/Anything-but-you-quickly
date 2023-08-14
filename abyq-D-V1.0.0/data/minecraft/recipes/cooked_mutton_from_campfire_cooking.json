@@ -4,6 +4,7 @@
     "item": "minecraft:mutton"
   },
   "result": "minecraft:cooked_mutton",
+  "category": "food",
   "experience": 0.35,
-  "cookingtime": 200
+  "cookingtime": 100
 }
