@@ -29,14 +29,14 @@ execute as @a[nbt={SelectedItem:{tag:{id:"abyq:frozen_sword",display:{Name:'{"te
 execute as @e[tag=brew,type=armor_stand] at @s run function abyq:brew/tick
 #自定义酿造
 
-execute as @e[type=item,nbt={Age:60s}] at @s run kill @s
+execute as @e[type=item,nbt={Age:50s}] at @s run kill @s
 #物品age
 
 #execute as @e[tag=brew,type=armor_stand] at @s run function abyq:recipes/cake
 #龙蛋蛋糕
 
-execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:chainmail_boots"},{Slot:101b,id:"minecraft:chainmail_leggings"},{Slot:102b,id:"minecraft:chainmail_chestplate"},{Slot:103b,id:"minecraft:chainmail_helmet"}]}] at @s run function abyq:tools/use/chainmail
-execute as @a[nbt=!{Inventory:[{Slot:100b,id:"minecraft:chainmail_boots"},{Slot:101b,id:"minecraft:chainmail_leggings"},{Slot:102b,id:"minecraft:chainmail_chestplate"},{Slot:103b,id:"minecraft:chainmail_helmet"}]}] at @s run function abyq:tools/use/chainmail_clear
+execute as @a[predicate=abyq:tools/chainmail] at @s run function abyq:tools/use/chainmail
+execute as @a[predicate=!abyq:tools/chainmail] at @s run function abyq:tools/use/chainmail_clear
 #套装效果
 
 #execute as @e[type=small_fireball,tag=!n_fireball] at @s run function abyq:projectile/fireball
