@@ -1,0 +1,2 @@
+execute if entity @s[distance=..10] if block ~ ~ ~ brewing_stand align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=armor_stand,distance=..0.5] run summon marker ~ ~ ~ {Tags:["block_pos"]}
+execute if entity @s[distance=..10] unless entity @e[type=marker,distance=..6,tag=block_pos] positioned ^ ^ ^0.005 run function abyq:brew/ray

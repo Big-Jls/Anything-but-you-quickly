@@ -1,0 +1,13 @@
+{
+    "rewards": {
+      "function": "abyq:recipes/chainmail_leggings"
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "abyq:chainmail_leggings"
+        }
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+{
+    "rewards": {
+      "function": "abyq:recipes/frozen_sword"
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "abyq:frozen_sword"
+        }
+      }
+    }
+  }

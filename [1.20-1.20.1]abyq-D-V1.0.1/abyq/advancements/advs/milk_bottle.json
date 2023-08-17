@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:potion",
+        "nbt": "{CustomModelData:10004}"
+      },
+      "title": [
+        {
+          "text": "奶瓶"
+        }
+      ],
+      "description": "和我小时候喝的一样....",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:potion"
+              ],
+              "nbt": "{id:\"abyq:milk_bottle\"}"
+            }
+          ]
+        }
+      }
+    },
+    "parent": "abyq:advs/root"
+  }
+  

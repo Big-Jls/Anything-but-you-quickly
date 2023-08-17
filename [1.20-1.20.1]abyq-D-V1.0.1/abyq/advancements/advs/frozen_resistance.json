@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:potion",
+        "nbt": "{CustomPotionColor:38446078}"
+      },
+      "title": [
+        {
+          "text": "冻结抵抗"
+        }
+      ],
+      "description": "你能拿我怎样？冻不住我吧~~~",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:potion"
+              ],
+              "nbt": "{id:\"abyq:frozen_resistance\"}"
+            }
+          ]
+        }
+      }
+    },
+    "parent": "abyq:advs/milk_bottle"
+  }
+  

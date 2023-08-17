@@ -1,0 +1,13 @@
+{
+    "rewards": {
+      "function": "abyq:book/book_"
+    },
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "abyq:book"
+        }
+      }
+    }
+  }
