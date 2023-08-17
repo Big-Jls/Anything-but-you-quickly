@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion:\"minecraft:swiftness\",HideFlags:32,CustomPotionColor:38446078,display:{Lore:['{\"text\":\"冻结抵抗（01:00）\",\"color\":\"blue\",\"italic\":false}','{\"text\": \"迅捷（03:00）\",\"color\":\"blue\",\"italic\":false}','{\"text\": \"\"}','{\"text\": \"当生效后: \",\"italic\":false}','{\"text\": \"+100% 冻结抵抗\",\"color\":\"blue\",\"italic\":false}','{\"text\": \"+20% 速度\",\"color\":\"blue\",\"italic\":false}'],Name:'{\"translate\":\"item.abyq.splash_frozen_resistance\"}'},id:'abyq:splash_frozen_resistance'}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

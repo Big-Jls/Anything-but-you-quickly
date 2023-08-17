@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#A#",
+        "#G#",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blue_ice"
+        },
+        "A": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "G": {
+            "item": "minecraft:golden_leggings"
+        }
+    },
+    "result": {
+        "item": "minecraft:chainmail_leggings",
+        "count": 1
+    }
+}

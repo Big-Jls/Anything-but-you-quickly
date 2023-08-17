@@ -1,0 +1,24 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": 1
+          },
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{display:{Name:'{\"translate\":\"item.abyq.diamond_fc\"}'},CustomModelData:10001,id:'abyq:diamond_fc',Damage:13,Enchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+          }
+        ]
+      }
+    ]
+  }
+  

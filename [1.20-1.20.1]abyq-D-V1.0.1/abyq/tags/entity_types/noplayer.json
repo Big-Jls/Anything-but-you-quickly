@@ -1,0 +1,16 @@
+{
+    "values": [
+      "minecraft:item",
+      "minecraft:player",
+      "minecraft:ender_dragon",
+      "minecraft:item_frame",
+      "minecraft:boat",
+      "minecraft:minecart",
+      "minecraft:area_effect_cloud",
+      "minecraft:fireball",
+      "minecraft:dragon_fireball",
+      "minecraft:small_fireball",
+      "minecraft:arrow",
+      "minecraft:spectral_arrow"
+    ]
+  }
