@@ -1,1 +1,0 @@
-title @s actionbar [{"text": "冷却时间还有","color": "dark_red"},{"score":{"name": "*","objective": "frozen.c"}},{"text": "s"}]

@@ -1,4 +1,0 @@
-give @s golden_sword{CustomModelData:10006,HideFlags:2,display:{Name:'{"translate":"item.abyq.frozen_sword"}',Lore:['{"text":""}','{"text":"在主手时:","color":"gray","italic":false}','{"text": " 5.5 攻击伤害","color": "dark_green","italic": false}','{"text": " 2 攻击速度","color": "dark_green","italic": false}']},id:'abyq:frozen_sword',AttributeModifiers:[{AttributeName:"minecraft:generic.attack_speed",UUID:[I;-1847489067,-1936572204,-1232907990,-1087655163],Name:"abyq:attack_speed",Slot:"mainhand",Amount:-2},{AttributeName:"minecraft:generic.attack_damage",Name:"abyq:attack_damage",Amount:5.5,Slot:"mainhand",UUID:[I;-717650469,-1213250184,-1490657185,-1920566821]}]}
-advancement revoke @s only abyq:recipes/tools/frozen_sword
-recipe take @s abyq:frozen_sword
-clear @s knowledge_book
