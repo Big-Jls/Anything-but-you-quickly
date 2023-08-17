@@ -11,7 +11,7 @@
 #### ③植物的生长速度
 各种植物的生长速度大幅度提升。例如小麦、甜浆果、树苗、草方块蔓延等
 #### ④时间很快
-我的世界的时间变得很快，使得日夜交替过于频繁，****掉落的物品会在2.5s后自动消失****以及玩家死亡会立刻重生
+我的世界的时间变得很快，使得日夜交替过于频繁，****掉落的物品会在2.5s后自动消失****以及玩家死亡会立刻重生，没有无敌帧等等
 
 ## 物品修改以及新增(游戏内介绍书获取更多内容)
 ![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/abyq/textures/item/tools/frozen_sword.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/minecraft/textures/item/chainmail_helmet.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/minecraft/textures/item/chainmail_chestplate.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/minecraft/textures/item/chainmail_leggings.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/minecraft/textures/item/chainmail_boots.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/abyq/textures/item/ice_crystal.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/abyq/textures/item/foods/frozen_apple.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/abyq/textures/item/foods/milk_bottle.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/abyq/textures/item/tools/frozen_clock.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/abyq/textures/item/tools/diamond_fc.png)![Description](http://bigjls.gitee.io/anything-but-you-quickly/abyq-R-V1.0.0/assets/abyq/textures/item/tools/netherite_fc.png)
@@ -34,3 +34,25 @@
 3. 在游戏内选择数据包后，在游戏里面进行界面调试。
 4. 在新建世界的时候点击数据包选项，将下载好的数据包添加进去。
 5. 在游戏里面输入/reload重新加载。
+## 命名空间&物品指令获取方法
+### 命名空间
+命名空间: abyq, CustomModelData: 10000-10007, 计分板: book、book.t、frozen、frozen.n、frozen.c、frozen.apple、frozen.resistance、sfr
+### 物品指令获取方法
+冰晶 /loot give @s loot abyq:items/ice_crystal
+冰剑 /loot give @s loot abyq:items/tools/frozen_sword
+冻结时间 /loot give @s loot abyq:items/tools/frozen_clock
+深度冻结时间 /loot give @s loot abyq:items/tools/diamond_fc
+冻结生命 /loot give @s loot abyq:items/tools/netherite_fc
+霜冻苹果 /loot give @s loot abyq:items/foods/frozen_apple
+奶瓶 /loot give @s loot abyq:items/foods/milk_bottle
+冻结抵抗药水 /loot give @s loot abyq:items/foods/frozen_resistance
+喷溅状冻结抵抗药水 /loot give @s loot abyq:items/foods/splash_frozen_resistance
+
+冰制套装
+/give @s chainmail_helmet
+/give @s chainmail_chestplate
+/give @s chainmail_leggings
+/give @s chainmail_boots
+
+书
+/function abyq:book/book_
