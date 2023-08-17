@@ -39,20 +39,30 @@
 命名空间: abyq, CustomModelData: 10000-10007, 计分板: book、book.t、frozen、frozen.n、frozen.c、frozen.apple、frozen.resistance、sfr
 ### 物品指令获取方法
 冰晶 /loot give @s loot abyq:items/ice_crystal
+
 冰剑 /loot give @s loot abyq:items/tools/frozen_sword
+
 冻结时间 /loot give @s loot abyq:items/tools/frozen_clock
+
 深度冻结时间 /loot give @s loot abyq:items/tools/diamond_fc
+
 冻结生命 /loot give @s loot abyq:items/tools/netherite_fc
+
 霜冻苹果 /loot give @s loot abyq:items/foods/frozen_apple
+
 奶瓶 /loot give @s loot abyq:items/foods/milk_bottle
+
 冻结抵抗药水 /loot give @s loot abyq:items/foods/frozen_resistance
+
 喷溅状冻结抵抗药水 /loot give @s loot abyq:items/foods/splash_frozen_resistance
 
 冰制套装
 /give @s chainmail_helmet
+
 /give @s chainmail_chestplate
+
 /give @s chainmail_leggings
+
 /give @s chainmail_boots
 
-书
-/function abyq:book/book_
+书 /function abyq:book/book_
